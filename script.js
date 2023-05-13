@@ -2,9 +2,9 @@
 // generating random number
 let randomNumber = Math.trunc(Math.random() * 20 + 1);
 // chosing losing audio track
-const loseAudio = new Audio('/mixkit-retro-arcade-game-over-470.wav');
+const loseAudio = new Audio('/mixkit-retro-arcade-game-over-470.mp3');
 // chosing wining audio track
-const winAudio = new Audio('/mixkit-wind-chimes-2014.wav');
+const winAudio = new Audio('/mixkit-wind-chimes-2014.mp3');
 //selcting score element
 let score = Number(document.querySelector('.score').textContent);
 //selecting high score element
